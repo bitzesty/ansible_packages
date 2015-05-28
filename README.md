@@ -65,4 +65,4 @@ MIT / BSD
 
 #### Author Information
 
-This role was created in 2014 by developers from (Bitzesty LTD)[https://github.com/bitzesty].
+This role was created in 2015 by developers from [Bitzesty LTD](https://github.com/bitzesty).
