@@ -1,0 +1,13 @@
+- name: "Run 'apt-get update'"
+  apt: update_cache=yes
+
+- name: "Install some packages"
+  apt: name={{ item }} state=present
+  with_items: {{ default_packages + advanced_packages }}
+
+- name: install httplib2
+  pip: name=httplib2
+
+
+
+
